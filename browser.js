@@ -1,4 +1,4 @@
-const handleClick = () => {
+const check = () => {
   const fd = new FormData();
   const blob = new Blob([new Uint8Array([0])]);
   fd.append("file", blob, "hé.txt");
